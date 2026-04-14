@@ -1,6 +1,5 @@
 # Ultra Doc-Intelligence
-
-Submission-focused POC for the AI Engineer skill test. The system accepts a single logistics document, indexes it for retrieval, answers grounded questions with evidence and confidence, and extracts a fixed shipment JSON schema.
+The system accepts a single logistics document, indexes it for retrieval, answers grounded questions with evidence and confidence, and extracts a fixed shipment JSON schema.
 
 ## Scope
 
@@ -200,17 +199,3 @@ Known limitations:
 
 Use the commands in [RUN_STEPS.md](./RUN_STEPS.md).
 
-## Submission Status
-
-This repository now covers the core technical requirements of the skill test locally:
-
-- parsing and indexing
-- grounded QA with evidence and confidence
-- guardrails
-- structured extraction
-- minimal UI
-- required API endpoints
-- local run instructions
-- README coverage of architecture, chunking, retrieval, guardrails, confidence, failure cases, and improvements
-
-Hosted deployment and repository publishing are still separate delivery steps outside the local codebase.
